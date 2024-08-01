@@ -15,9 +15,9 @@ function encriptar(){
     document.getElementById("texto").value = textoCifrado;
     tituloMensaje.textContent = "Texto encriptado con éxito";
     parrafo.textContent = "";
-    muñeco.src = "./img/muñeco.png";
+    muñeco.src = "./img/Muñeco.png";
   } else {
-    muñeco.src = "./img/muñeco.png";
+    muñeco.src = "./img/Muñeco.png";
     tituloMensaje.textContent = "Ningun mensaje fue encontrado";
     parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
     alert("Debes ingresar algún texto");
@@ -41,9 +41,9 @@ function encriptar(){
       document.getElementById("texto").value = textoCifrado;
       tituloMensaje.textContent = "Texto desencriptado con éxito";
       parrafo.textContent = "";
-      muñeco.src = "./img/muñeco.png";
+      muñeco.src = "./img/Muñeco.png";
     } else {
-      muñeco.src = "./img/muñeco.png";
+      muñeco.src = "./img/Muñeco.png";
       tituloMensaje.textContent = "Ningun mensaje fue encontrado";
       parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
       alert("Debes ingresar algún texto");
